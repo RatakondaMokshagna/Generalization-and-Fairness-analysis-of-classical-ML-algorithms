@@ -26,7 +26,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project conducts a comprehensive, multi-dimensional comparison of **five classical supervised machine learning algorithms** on the UCI Adult Income dataset. Rather than simply reporting accuracy, the analysis evaluates each model across seven distinct dimensions: predictive performance, learning dynamics, statistical significance, bias-variance trade-off, noise robustness, discriminative ability (AUC), and computational efficiency — followed by hyperparameter tuning of the best model and a fairness audit across demographic groups.
 
@@ -34,7 +34,7 @@ The project is designed to reflect real-world model selection thinking: choosing
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Compare five algorithm families on a real-world binary classification task
 - Diagnose each model's bias-variance profile using bootstrap resampling
@@ -47,7 +47,7 @@ The project is designed to reflect real-world model selection thinking: choosing
 
 ---
 
-## 🗂️ Dataset
+##  Dataset
 
 | Attribute | Details |
 |:---|:---|
@@ -71,11 +71,10 @@ The project is designed to reflect real-world model selection thinking: choosing
 | `race` / `sex` | Categorical | Demographic attributes |
 | `native-country` | Categorical | Country of origin |
 
-> 📥 Dataset is auto-loaded from the UCI repository inside the notebook — no manual download required.
 
 ---
 
-## 🔬 Methodology
+##  Methodology
 
 | Step | Method | Purpose |
 |:---|:---|:---|
@@ -93,7 +92,7 @@ The project is designed to reflect real-world model selection thinking: choosing
 
 ---
 
-## 📊 Key Results
+##  Key Results
 
 ### Baseline Model Comparison (5-Fold Cross-Validation)
 
@@ -146,7 +145,7 @@ The project is designed to reflect real-world model selection thinking: choosing
 
 ---
 
-## 📈 Visualisations & Analysis
+##  Visualisations & Analysis
 
 All figures below are generated directly from the notebook. Each is accompanied by a full explanation: what it shows, how to read it, and what the result means statistically.
 
@@ -264,32 +263,32 @@ All figures below are generated directly from the notebook. Each is accompanied 
 
 ---
 
-## 🏗️ Repository Structure
+##  Repository Structure
 
 Upload the following files to your GitHub repository in this exact structure so all image references render correctly on GitHub:
 
 ```
-📦 income-classification-ml/
+ income-classification-ml/
 │
-├── 📓 ML_classical.ipynb                               # Main analysis notebook
-├── 📄 README.md                                        # This file
+├──  main.ipynb                              
+├──  README.md                                       
 │
-└── 📁 figures/
-    ├── 🖼️  fig1_class_and_sex_distribution.png         # Class balance & gender breakdown
-    ├── 🖼️  fig2_learning_curve_logistic_regression.png  # Learning curve — LR
-    ├── 🖼️  fig3_learning_curve_decision_tree.png        # Learning curve — DT
-    ├── 🖼️  fig4_learning_curve_random_forest.png        # Learning curve — RF
-    ├── 🖼️  fig5_learning_curve_svm.png                  # Learning curve — SVM
-    ├── 🖼️  fig6_learning_curve_knn.png                  # Learning curve — KNN
-    ├── 🖼️  fig7_roc_curve_comparison.png                # AUC comparison — all models
-    └── 🖼️  fig8_fairness_analysis.png                   # PPR by sex and race
+└──  figures/
+    ├──   fig1_class_and_sex_distribution.png         
+    ├──   fig2_learning_curve_logistic_regression.png  
+    ├──   fig3_learning_curve_decision_tree.png        
+    ├──   fig4_learning_curve_random_forest.png       
+    ├──   fig5_learning_curve_svm.png                  
+    ├──   fig6_learning_curve_knn.png                  
+    ├──   fig7_roc_curve_comparison.png               
+    └──   fig8_fairness_analysis.png                  
 ```
 
-> ⚠️ The dataset is loaded automatically from the UCI repository URL inside the notebook. No local data file is needed.
+>  The dataset is loaded automatically from the UCI repository URL inside the notebook. No local data file is needed.
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 ```bash
 pip install scikit-learn pandas numpy matplotlib seaborn scipy
@@ -306,7 +305,7 @@ pip install scikit-learn pandas numpy matplotlib seaborn scipy
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 1. Open `ML_classical.ipynb` in **Google Colab** or Jupyter Notebook
 2. Run all cells sequentially — the dataset is fetched automatically from UCI
@@ -315,7 +314,7 @@ pip install scikit-learn pandas numpy matplotlib seaborn scipy
 
 ---
 
-## 💡 Conclusions
+##  Conclusions
 
 | Aspect | Finding |
 |:---|:---|
@@ -334,7 +333,7 @@ pip install scikit-learn pandas numpy matplotlib seaborn scipy
 
 ---
 
-## 🔭 Limitations & Future Work
+##  Limitations & Future Work
 
 - The dataset reflects 1994 demographics — findings may not generalise to modern income distributions
 - Gradient boosting methods (XGBoost, LightGBM, CatBoost) may yield further accuracy and AUC improvements
@@ -343,7 +342,7 @@ pip install scikit-learn pandas numpy matplotlib seaborn scipy
 
 ---
 
-## 📚 References
+##  References
 
 - Dua, D. & Graff, C. (2019). *UCI Machine Learning Repository*. University of California, Irvine. https://archive.ics.uci.edu/ml/datasets/adult
 - Kohavi, R. (1996). Scaling up the accuracy of Naive-Bayes classifiers: A decision-tree hybrid. *KDD Proceedings*.
