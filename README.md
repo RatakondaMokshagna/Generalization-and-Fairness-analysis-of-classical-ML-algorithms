@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 Income Classification with Classical Machine Learning
+#  Generalization and Fairness analysis of classical Machine Learning algorithms
 ### A Rigorous Multi-Dimensional Comparison of Five Supervised Learning Algorithms
 
 <br>
