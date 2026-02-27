@@ -19,7 +19,6 @@
 | **Author** | Mokshagna Ratakonda |
 | **Institution** | SRM Institute of Science and Technology |
 | **Dataset** | UCI Adult Income Dataset (~48,000 records) |
-| **Task** | Binary Classification — predict income > $50K/year |
 | **Language** | Python 3 · Google Colab |
 
 </div>
